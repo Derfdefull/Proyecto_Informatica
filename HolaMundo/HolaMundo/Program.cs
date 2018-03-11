@@ -12,6 +12,8 @@ namespace HolaMundo
         {
 
             Console.Write("Hola Mundo");
+            Console.Write(string.Format("La suma de {0} y {1}, es = {0} + {1}", 3, 4));
+            Console.ReadLine();
         }
     }
 }
