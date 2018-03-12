@@ -97,7 +97,6 @@
   <ItemGroup>
     <Folder Include="Modulos\CCC\Forms\" />
     <Folder Include="Modulos\CCC\IMG\" />
-    <Folder Include="Modulos\CFE\Forms\" />
     <Folder Include="Modulos\CFE\IMG\" />
     <Folder Include="Modulos\CMUPI\Forms\" />
     <Folder Include="Modulos\CMUPI\IMG\" />
@@ -141,6 +140,7 @@
     <Content Include="Content\estilo.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Login\Login.aspx" />
+    <Content Include="Modulos\CFE\Forms\WebForm1.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -164,6 +164,13 @@
     </Compile>
     <Compile Include="Login\Login.aspx.vb">
       <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\CFE\Forms\WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\CFE\Forms\WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
