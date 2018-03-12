@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -98,7 +99,6 @@
     <Folder Include="Modulos\CCC\Forms\" />
     <Folder Include="Modulos\CCC\IMG\" />
     <Folder Include="Modulos\CFE\IMG\" />
-    <Folder Include="Modulos\CMUPI\Forms\" />
     <Folder Include="Modulos\CMUPI\IMG\" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +141,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Login\Login.aspx" />
     <Content Include="Modulos\CFE\Forms\WebForm1.aspx" />
+    <Content Include="Modulos\CMUPI\Forms\prueba1.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -171,6 +172,13 @@
     </Compile>
     <Compile Include="Modulos\CFE\Forms\WebForm1.aspx.vb">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Modulos\CMUPI\Forms\prueba1.aspx.designer.vb">
+      <DependentUpon>prueba1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\CMUPI\Forms\prueba1.aspx.vb">
+      <DependentUpon>prueba1.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -246,7 +254,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>62080</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
