@@ -95,6 +95,7 @@ li a:hover:not(.active) {
   <li><a href="/Forms/RegistrarCliente.aspx"> Registrar Clientes </a></li>
   <li><a href="/Forms/RegistroDeContrato.aspx"> Registrar Contratos</a></li>
   <li><a href="/Forms/Agenda.aspx">  Agenda  </a></li>
+  <li><a href="RegistrarVisita.aspx"> Registrar visita</a></li>
   <li><a href="/Forms/Promociones.aspx">  Promociones/Planes </a></li>
   <li><a href="/Forms/ListaClientes.aspx">  Historial de Clientes  </a></li>
   <li><a href="#about"> Recordatorios  </a></li>
