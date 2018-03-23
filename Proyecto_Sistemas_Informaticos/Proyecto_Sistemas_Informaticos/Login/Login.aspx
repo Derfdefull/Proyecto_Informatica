@@ -64,6 +64,13 @@
         </style>
 </head>
 <body id="cuerpo">
+    
+    <script > 
+        for (var i = 0; i < 10; i++) {
+         s
+        }
+
+    </script>
     <form id="form1" runat="server" class="auto-style1">
         <br />
         <br />
